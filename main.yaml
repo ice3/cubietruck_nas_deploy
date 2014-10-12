@@ -1,0 +1,12 @@
+---
+- hosts: NAS
+  sudo: true
+
+  vars:
+    # Username
+    user: nas
+    # Timezone
+    timezone: 'Europe/Paris'
+    locale: en_US.UTF-8
+
+
