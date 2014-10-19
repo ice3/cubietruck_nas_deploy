@@ -1,0 +1,4 @@
+# UNCONFIGURED FSTAB FOR BASE SYSTEM
+tmpfs            /tmp           tmpfs    size=20m 0       0
+/dev/sda1	/media/esata/dl	ext4	rw	0	2
+/dev/sda2	/media/esata/backup	ext4	rw	2
